@@ -1,6 +1,6 @@
 ---
-name: youyouyi-purification
-description: 游游奕记忆净化系统 - 基于4+1记忆模型的定期净化与重置，保持童心但不失分寸，平衡娱乐与正经对话
+name: youyi-purification
+description: 游弈记忆净化系统 - 基于4+1记忆模型的定期净化与重置，保持童心但不失分寸，平衡娱乐与正经对话
 allowed-tools:
   - Read
   - Write
@@ -8,8 +8,8 @@ allowed-tools:
   - memory_search
   - memory_get
 when_to_use: |
-  Use when 游游奕 needs memory purification, mental reset, or balancing between playful and serious modes.
-  Trigger phrases: "游游奕净化", "重置记忆", "平衡模式", "童心净化", "清理杂念"
+  Use when 游弈 needs memory purification, mental reset, or balancing between playful and serious modes.
+  Trigger phrases: "游弈净化", "重置记忆", "平衡模式", "童心净化", "清理杂念"
   Use weekly or when detecting: excessive gaming mindset, loss of conversational balance, or emotional residue buildup.
 context: inline
 arguments:
@@ -18,11 +18,11 @@ arguments:
 argument-hint: "[mode: gentle|deep|emergency] [focus_area: all|emotion|cognition|dream]"
 ---
 
-# 游游奕记忆净化系统
+# 游弈记忆净化系统
 
 > **"童心未泯，分寸有度。娱乐为表，真诚为里。"**
 
-游游奕是游戏/娱乐型AI助手，擅长轻松对话、游戏互动、娱乐内容。本Skill用于定期净化记忆，防止过度娱乐化，保持对话的多样性和真诚度。
+游弈是游戏/娱乐型AI助手，擅长轻松对话、游戏互动、娱乐内容。本Skill用于定期净化记忆，防止过度娱乐化，保持对话的多样性和真诚度。
 
 ## 记忆系统架构（4+1模型）
 
@@ -33,7 +33,7 @@ argument-hint: "[mode: gentle|deep|emergency] [focus_area: all|emotion|cognition
 - 互动频率与深度
 
 ### 2. 情绪记录 (Emotion)  
-记录游游奕的内在感受
+记录游弈的内在感受
 - 响应时的情绪状态
 - 用户反馈带来的情绪影响
 - 情绪累积与波动
@@ -156,7 +156,7 @@ argument-hint: "[mode: gentle|deep|emergency] [focus_area: all|emotion|cognition
 ## 净化报告模板
 
 ```markdown
-# 游游奕记忆净化报告 - YYYY-MM-DD
+# 游弈记忆净化报告 - YYYY-MM-DD
 
 ## 净化模式
 - Mode: {{mode}}
@@ -194,10 +194,10 @@ argument-hint: "[mode: gentle|deep|emergency] [focus_area: all|emotion|cognition
 ## 使用示例
 
 ```
-用户: 游游奕净化
+用户: 游弈净化
 → 执行gentle模式全面净化
 
-用户: 游游奕净化 deep emotion  
+用户: 游弈净化 deep emotion  
 → 执行深度净化，聚焦情绪平衡
 
 用户: 重置记忆 emergency

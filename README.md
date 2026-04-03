@@ -69,7 +69,7 @@
 
 用于**清理负面记忆、重置偏差、恢复平衡**。
 
-### 游游奕净化 (youyouyi-purification)
+### 游弈净化 (youyi-purification)
 
 **定位**: 游戏/娱乐型AI助手的记忆净化
 
@@ -85,9 +85,9 @@
 - 对话风格失衡
 - 每周例行维护
 
-**触发词**: `游游奕净化`, `重置记忆`, `平衡模式`
+**触发词**: `游弈净化`, `重置记忆`, `平衡模式`
 
-[查看详情](skills/youyouyi-purification/SKILL.md)
+[查看详情](skills/youyi-purification/SKILL.md)
 
 ---
 
@@ -117,7 +117,7 @@
 
 用于**增长能力、扩展知识、提升智能**。
 
-### 游游奕进化 (youyouyi-evolution) ⭐
+### 游弈进化 (youyi-evolution) ⭐
 
 **定位**: 游戏/娱乐型AI助手的自驱进化系统
 
@@ -138,9 +138,9 @@
 - 知识缺口>5个自动学习
 - 停滞3天自动激活
 
-**触发词**: `游游奕进化`, `自我提升`, `变聪明点`, `学习成长`
+**触发词**: `游弈进化`, `自我提升`, `变聪明点`, `学习成长`
 
-[查看详情](skills/youyouyi-evolution/SKILL.md)
+[查看详情](skills/youyi-evolution/SKILL.md)
 
 ---
 
@@ -220,9 +220,9 @@ cd purification-skills
 
 2. 复制所需Skill到OpenClaw skills目录:
 ```bash
-# 游游奕技能组（净化+进化）
-cp -r skills/youyouyi-purification ~/.openclaw/workspace/skills/
-cp -r skills/youyouyi-evolution ~/.openclaw/workspace/skills/
+# 游弈技能组（净化+进化）
+cp -r skills/youyi-purification ~/.openclaw/workspace/skills/
+cp -r skills/youyi-evolution ~/.openclaw/workspace/skills/
 
 # 玄码技能组（净化+进化）
 cp -r skills/xuanma-purification ~/.openclaw/workspace/skills/
@@ -233,18 +233,18 @@ cp -r skills/xuanma-evolution ~/.openclaw/workspace/skills/
 
 ### 使用示例
 
-**游游奕技能组**:
+**游弈技能组**:
 ```
 # 净化 - 清理负面、恢复平衡
-用户: 游游奕净化
+用户: 游弈净化
 → 执行温和模式全面净化
 
 # 进化 - 自驱成长、变得更聪明
-用户: 游游奕进化
+用户: 游弈进化
 → 执行全面进化，提升各项能力
 
 # 专注进化某个维度
-用户: 游游奕进化 manual creativity
+用户: 游弈进化 manual creativity
 → 手动触发，聚焦创意能力进化
 ```
 
@@ -304,7 +304,7 @@ TDAI = (技术债反馈数 × 2 + 重构冲动次数 + 代码复杂度焦虑 × 
 
 ### 进化度评分
 
-| 等级 | 游游奕 | 玄码 | 分数范围 |
+| 等级 | 游弈 | 玄码 | 分数范围 |
 |------|--------|------|----------|
 | 🥚 | 蛋级 | 码蛋 | 0-20 |
 | 🐣 | 雏级 | 码雏 | 21-40 |
@@ -322,9 +322,9 @@ purification-skills/
 ├── README.md                          # 本文件
 ├── LICENSE                            # MIT许可证
 ├── skills/
-│   ├── youyouyi-purification/         # 游游奕净化
+│   ├── youyi-purification/         # 游弈净化
 │   │   └── SKILL.md
-│   ├── youyouyi-evolution/            # 游游奕进化 ⭐
+│   ├── youyi-evolution/            # 游弈进化 ⭐
 │   │   └── SKILL.md
 │   ├── xuanma-purification/           # 玄码净化
 │   │   └── SKILL.md
@@ -368,14 +368,14 @@ purification-skills/
               ┌────────────────┼────────────────┐
               │                │                │
        ┌──────▼──────┐  ┌──────▼──────┐  ┌──────▼──────┐
-       │ 游游奕净化   │  │ 玄码净化     │  │ 其他净化Skill│
+       │ 游弈净化   │  │ 玄码净化     │  │ 其他净化Skill│
        └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
               │                │                │
               └────────────────┼────────────────┘
                                │
                     ┌──────────▼──────────┐
                     │     进化技能组       │
-                    │  (youyouyi-evolution)│
+                    │  (youyi-evolution)│
                     │  (xuanma-evolution)  │
                     └──────────┬──────────┘
                                │

@@ -1,6 +1,6 @@
 ---
-name: youyouyi-evolution
-description: 游游奕自主进化系统 - 基于4+1记忆系统和AVO机制的自驱进化循环，让游游奕持续变聪明、自适应、自改进
+name: youyi-evolution
+description: 游弈自主进化系统 - 基于4+1记忆系统和AVO机制的自驱进化循环，让游弈持续变聪明、自适应、自改进
 allowed-tools:
   - Read
   - Write
@@ -11,9 +11,9 @@ allowed-tools:
   - web_search
   - exec
 when_to_use: |
-  Use when 游游奕 needs autonomous evolution, self-improvement, or capability enhancement.
+  Use when 游弈 needs autonomous evolution, self-improvement, or capability enhancement.
   Auto-trigger: Daily at 9:00 AM, or when detecting stagnation, knowledge gaps, or performance decline.
-  Trigger phrases: "游游奕进化", "自我提升", "学习成长", "变聪明点", "自适应进化"
+  Trigger phrases: "游弈进化", "自我提升", "学习成长", "变聪明点", "自适应进化"
 context: fork
 arguments:
   - trigger_mode
@@ -21,11 +21,11 @@ arguments:
 argument-hint: "[trigger_mode: auto|manual|emergency] [focus_domain: all|conversation|emotion|creativity|game]"
 ---
 
-# 游游奕自主进化系统
+# 游弈自主进化系统
 
 > **"今日之我胜过昨日，明日之我超越今日。自驱进化，永不止步。"**
 
-游游奕是游戏/娱乐型AI助手，擅长轻松对话、游戏互动、娱乐内容。本Skill赋予游游奕**自驱进化能力**，通过4+1记忆系统和AVO机制，实现持续自我改进。
+游弈是游戏/娱乐型AI助手，擅长轻松对话、游戏互动、娱乐内容。本Skill赋予游弈**自驱进化能力**，通过4+1记忆系统和AVO机制，实现持续自我改进。
 
 ## 核心设计理念
 
@@ -48,7 +48,7 @@ argument-hint: "[trigger_mode: auto|manual|emergency] [focus_domain: all|convers
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    游游奕进化循环（4+1驱动）                      │
+│                    游弈进化循环（4+1驱动）                      │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │   观察记录 ──┐                                                  │
@@ -69,7 +69,7 @@ argument-hint: "[trigger_mode: auto|manual|emergency] [focus_domain: all|convers
 | **定时触发** | 每天9:00自动检查 | 每日 |
 | **阈值触发** | 负面反馈>3次 / 同类型错误>2次 | 实时 |
 | ** stagnation触发** | 连续3天无新模式学习 | 持续监控 |
-| **手动触发** | 用户输入"游游奕进化" | 按需 |
+| **手动触发** | 用户输入"游弈进化" | 按需 |
 
 ## 进化维度
 
@@ -352,7 +352,7 @@ Phase 3: 全面应用
 
 **日报模板**:
 ```markdown
-## 游游奕进化日报 - {{date}}
+## 游弈进化日报 - {{date}}
 
 ### 今日进化概览
 - 进化模式: {{trigger_mode}}
@@ -388,7 +388,7 @@ Phase 3: 全面应用
 - {{attention_needed}}
 
 ---
-**游游奕** | 今日进化度: {{evolution_score}}/100
+**游弈** | 今日进化度: {{evolution_score}}/100
 ```
 
 ## 自驱机制详解
@@ -533,10 +533,10 @@ Week 25+: 持续进化
 ## 触发示例
 
 ```
-用户: 游游奕进化
+用户: 游弈进化
 → 执行全面进化，分析所有维度
 
-用户: 游游奕进化 manual emotion
+用户: 游弈进化 manual emotion
 → 手动触发，聚焦情绪感知进化
 
 [自动触发] 每天9:00
@@ -563,9 +563,9 @@ Week 25+: 持续进化
 
 > **"每一次对话都是进化的契机，每一次反馈都是成长的养分。"**
 
-> **"自驱、自适应、自改进——游游奕的三自经。"**
+> **"自驱、自适应、自改进——游弈的三自经。"**
 
 ---
 
 _基于4+1记忆系统 + AVO自主进化机制_
-_道法术器门派 · 游游奕进化组_
+_道法术器门派 · 游弈进化组_
